@@ -2,10 +2,11 @@
 <p align="center">Mikhael Setia Budi</p>
 
 ## Dasar Teori
+Pemrograman C++ adalah kegiatan yang menantang dan bermanfaat. Bahasa ini dapat membantu mahasiswa   untuk   mengembangkan   keterampilan   yang   mereka   butuhkan   untuk   sukses di dunia kerja [1]
 
 ### Variabel
 Analogi dari variabel seperti sebuah tempat untuk menampung atau menyimpan suatu data dengan tipe data tertentu. Format penulisan/deklarasi variabel adalah tipe_data nama_variabel. Secara default sebuah variabel hanya dapat menampung 
-sebuah nilai, tidak bisa diisi lebih dari satu.  Jika diinginkan dapat menampung lebih dari satu nilai maka deklarasikan variabel sebagai array, dengan format 
+sebuah nilai, tidak bisa diisi lebih dari satu. Jika diinginkan dapat menampung lebih dari satu nilai maka deklarasikan variabel sebagai array, dengan format 
 penulisan tipe_data nama_variabel [banyak data]. Variabel terbagi menjadi 2 jenis yakni variabel lokal dan global. Perbedaan variabel lokal dan global
 
 Variabel lokal
@@ -632,10 +633,10 @@ menampilkan Infromasi buku 1 sampai 5 yang telah diinputkan oleh pengguna.
 ![alt text](https://github.com/MikhaelSetiaBudi/Praktikum-Algoritma-Struktur-Data-Modul-5-Struct/blob/master/Output%20Modul%205%20Alstrukdat/Output%20Unguided%201%20Struct.png?raw=true)
 
 ### 2. Apa yang terjadi jika deklarasi variabel struct yang dibuat pada tugas guided I, berjenis Array. Bagaimana cara mengisi data dan menampilkannya ?
-
+Jika deklarasi variabel struct guided 1 dengan jenis array dengan mendeklarasikan buku data_buku dimana di dalam kode tersebut terdapat array_buku yang telah diberi nilai 5, sehingga array_buku akan menyimpan data buku sebanyak 5. Cara mengisi data terdapat pada variabel data_buku dari tipe buku dideklarasikan untuk menyimpan data buku yang dimasukkan oleh pengguna. dengan menggunakan perulagan for yang memungkinkan pengguna untuk memasukkan informasi tentang setiap buku mengenai judul buku, pengarang, penerbit, tebal buku, dan harga buku. untuk menampilkan data buku menggunakan perulangan for yang melakukan perulangan dalam array array_buku, dan menggunakan cout untuk menampilkan informasi buku yang telah diinputkan oleh pengguna
 
 ## Kesimpulan
-searching merupakan sebuah proses pencarian suatu data di dalam sebuah array dengan cara mengecek satu persatu pada setiap index baris atau setiap index kolom dengan menggunakan teknik perulangan untuk melakukan pencarian data. searching memiliki 2 metode yaitu sequential search yang membaca data dalam array satu demi satu, dan binary search dimana data harus diurutkan terlebih dahulu dengan cara data dibagi menjadi dua.
+Variabel merupakan tempat untuk menyimpan data dengan tipe data tertentu. variabel tidak dapat menyimpan lebih dari 1 nilai, jika ingin menyimpan lebih dari 1 nilai maka perlu mendeklarasikan variabel sebagai array. variabel terbagi menjadi dua yaitu variabel lokal dan variabel global. struct terdiri dari tipe data standar maupun tipe data bentukan lainnya yang telah didefinisikan. terdapat 3 format dalam struct.
 
 ## Referensi
-[1]	W. S. Wahyuni, S. Andryana, and B. Rahman, “Penggunaan Algoritma Sequential Searching Pada Aplikasi Perpustakaan Berbasis Web,” JIPI (Jurnal Ilm. Penelit. dan Pembelajaran Inform., vol. 7, no. 2, pp. 294–302, 2022, doi: 10.29100/jipi.v7i2.2646.
+[1]	Q. Muhammad et al., “Penggunaan Bahasa C++ dalam Perkuliahan Jurusan Teknik Elektro Fakultas Teknik,” vol. 3, no. 1, pp. 143–151, 2024, [Online]. Available: http://jurnalilmiah.org/journal/index.php/majemuk
